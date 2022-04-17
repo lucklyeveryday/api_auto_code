@@ -1,0 +1,25 @@
+HTTP/1.1 200 
+Server: nginx/1.4.2
+Date: Mon, 04 Jan 2021 02:52:54 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{
+    "code": 0,
+    "msg": "OK",
+    "data": {
+        "id": 10009195,
+        "leave_amount": 0.0,
+        "mobile_phone": "13385256180",
+        "reg_name": "管理员用户lemon",
+        "reg_time": "2021-01-04 10:52:50.0",
+        "type": 0,
+        "token_info": {
+            "token_type": "Bearer",
+            "expires_in": "2021-01-04 10:57:54",
+            "token": "eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEwMDA5MTk1LCJleHAiOjE2MDk3MjkwNzR9.2LTWT8OBJ2dOlWx8-CqbXxHbktLCMqDh80QlV70O6bnD8FqiYNyIx-_DxNWNFraeuzDoQ6x9G4A3TK3DXoYIPw"
+        }
+    },
+    "copyright": "Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"
+}

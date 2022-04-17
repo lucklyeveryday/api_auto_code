@@ -1,0 +1,20 @@
+HTTP/1.1 200 
+Server: nginx/1.4.2
+Date: Mon, 04 Jan 2021 03:05:08 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{
+    "code": 0,
+    "msg": "OK",
+    "data": {
+        "id": 10009237,
+        "leave_amount": 500000.01,
+        "mobile_phone": "13376770232",
+        "reg_name": "tudou",
+        "reg_time": "2021-01-04 11:05:03.0",
+        "type": 1
+    },
+    "copyright": "Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"
+}

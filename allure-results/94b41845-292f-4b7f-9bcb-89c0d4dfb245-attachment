@@ -1,0 +1,13 @@
+HTTP/1.1 200 
+Server: nginx/1.4.2
+Date: Mon, 04 Jan 2021 03:06:26 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{
+    "code": 1,
+    "msg": "用户id为空",
+    "data": null,
+    "copyright": "Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"
+}
