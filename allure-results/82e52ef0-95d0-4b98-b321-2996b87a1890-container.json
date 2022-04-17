@@ -1,1 +1,0 @@
-{"uuid":"82e52ef0-95d0-4b98-b321-2996b87a1890","name":"com.lemon_yy.testcases.AuditTest","children":["ee901abb-91a0-4923-b9aa-5f61e35d7e26"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1609729739069,"stop":1609729739075}],"afters":[],"links":[],"start":1609729723764,"stop":1609729739164}
