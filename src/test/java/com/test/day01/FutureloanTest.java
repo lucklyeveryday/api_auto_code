@@ -1,37 +1,45 @@
 package com.test.day01;
 
-import io.restassured.RestAssured;
 import org.testng.annotations.Test;
 
-import java.io.File;
 
 import static io.restassured.RestAssured.given;
 
 public class FutureloanTest {
     @Test
     public void testRegister(){
-        RestAssured.baseURI="http://api.lemonban.com/futureloan";
-        String jsonStr = "{\"mobile_phone\":\"13323231011\",\"pwd\":\"12345678\",\"type\":1}";
+        String jsonstr="{\"mobile_phone\": \"13323232000\",\"pwd\": \"12345678\",\"type\":1}";
         given().
-                header("Content-Type","application/json;charset=utf-8").
+                contentType("application/json; charset=utf-8").
+                //请求头
                 header("X-Lemonban-Media-Type","lemonban.v1").
-                body(jsonStr).
+                //请求体
+                body(jsonstr).
+                //given()配置参数，请求头，请求参数，请求数据
         when().
-                post("/member/register").
+                //when是用来发起请求（get/post）
+                post("http://api.lemonban.com/futureloan/member/register").
         then().
-                log().body();
+                //对响应结果做什么事
+                log().all();
     }
 
     @Test
     public void testLogin(){
-        String jsonStr = "{\"mobile_phone\":\"13323231011\",\"pwd\":\"12345678\"}";
+        String jsonstr="{\"mobile_phone\": \"13323232000\",\"pwd\": \"12345678\",\"type\":1}";
         given().
-                header("Content-Type","application/json;charset=utf-8").
+                contentType("application/json; charset=utf-8").
+                //请求头
                 header("X-Lemonban-Media-Type","lemonban.v1").
-                body(jsonStr).
+                //请求体
+                 body(jsonstr).
+                //given()配置参数，请求头，请求参数，请求数据
         when().
-                post("http://api.lemonban.com/futureloan/member/login").
+                //when是用来发起请求（get/post）
+               post("http://api.lemonban.com/futureloan/member/login").
         then().
-                log().body();
+                //对响应结果做什么事
+               log().all();
     }
+
 }

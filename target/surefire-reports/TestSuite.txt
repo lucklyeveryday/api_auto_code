@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 67, Failures: 15, Errors: 0, Skipped: 0, Time elapsed: 17.867 s <<< FAILURE! - in TestSuite
+testGetRechage(com.lemon_yy.testcases.RechargeTest)  Time elapsed: 0.022 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.lemon_yy.testcases.RechargeTest.testGetRechage(RechargeTest.java:69)
+
+testGetRechage(com.lemon_yy.testcases.RechargeTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.lemon_yy.testcases.RechargeTest.testGetRechage(RechargeTest.java:69)
+
+testGetRechage(com.lemon_yy.testcases.RechargeTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.lemon_yy.testcases.RechargeTest.testGetRechage(RechargeTest.java:69)
+
+testGetRechage(com.lemon_yy.testcases.RechargeTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.lemon_yy.testcases.RechargeTest.testGetRechage(RechargeTest.java:69)
+
+testGetRechage(com.lemon_yy.testcases.RechargeTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.lemon_yy.testcases.RechargeTest.testGetRechage(RechargeTest.java:69)
+
+testGetRechage(com.lemon_yy.testcases.RechargeTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.lemon_yy.testcases.RechargeTest.testGetRechage(RechargeTest.java:69)
+
+testGetRechage(com.lemon_yy.testcases.RechargeTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.lemon_yy.testcases.RechargeTest.testGetRechage(RechargeTest.java:69)
+
+testGetRechage(com.lemon_yy.testcases.RechargeTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.lemon_yy.testcases.RechargeTest.testGetRechage(RechargeTest.java:69)
+
+testGetRechage(com.lemon_yy.testcases.RechargeTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.lemon_yy.testcases.RechargeTest.testGetRechage(RechargeTest.java:69)
+
+testGetRechage(com.lemon_yy.testcases.RechargeTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.lemon_yy.testcases.RechargeTest.testGetRechage(RechargeTest.java:69)
+
+testGetRechage(com.lemon_yy.testcases.RechargeTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.lemon_yy.testcases.RechargeTest.testGetRechage(RechargeTest.java:69)
+
+testGetRechage(com.lemon_yy.testcases.RechargeTest)  Time elapsed: 0.016 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.lemon_yy.testcases.RechargeTest.testGetRechage(RechargeTest.java:69)
+
+testAddLoan(com.lemon_yy.testcases.AddLoanTest)  Time elapsed: 0.131 s  <<< FAILURE!
+java.lang.AssertionError: 接口响应断言失败 expected [1] but found [5]
+	at com.lemon_yy.testcases.AddLoanTest.testAddLoan(AddLoanTest.java:52)
+
+testAddLoan(com.lemon_yy.testcases.AddLoanTest)  Time elapsed: 0.116 s  <<< FAILURE!
+java.lang.AssertionError: 接口响应断言失败 expected [10] but found [5]
+	at com.lemon_yy.testcases.AddLoanTest.testAddLoan(AddLoanTest.java:52)
+
+testAddLoan(com.lemon_yy.testcases.AddLoanTest)  Time elapsed: 0.123 s  <<< FAILURE!
+java.lang.AssertionError: 接口响应断言失败 expected [2] but found [5]
+	at com.lemon_yy.testcases.AddLoanTest.testAddLoan(AddLoanTest.java:52)
+

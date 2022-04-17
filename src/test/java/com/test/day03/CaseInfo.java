@@ -30,6 +30,7 @@ public class CaseInfo {
     @Excel(name="期望返回结果(expected)")
     private String expected;
 
+
     public int getCaseId() {
         return caseId;
     }
@@ -93,6 +94,7 @@ public class CaseInfo {
     public void setExpected(String expected) {
         this.expected = expected;
     }
+
 
     @Override
     public String toString() {
