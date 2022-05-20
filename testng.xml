@@ -8,6 +8,7 @@
             <class name="com.lemon_yy.testcases.GetUserInfoTest"/>
             <class name="com.lemon_yy.testcases.RechargeTest"/>
             <class name="com.lemon_yy.testcases.AddLoanTest"/>
+            <class name="com.lemon_yy.testcases.AuditTest"/>
 
         </classes>
     </test>
